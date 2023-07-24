@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC8B3772A6E2CFE00111CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B3762A6E2CFE00111CA7 /* AppDelegate.swift */; };
+		FEC8B37B2A6E2CFE00111CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B37A2A6E2CFE00111CA7 /* ViewController.swift */; };
+		FEC8B37E2A6E2CFE00111CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC8B37C2A6E2CFE00111CA7 /* Main.storyboard */; };
+		FEC8B3802A6E2CFF00111CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC8B37F2A6E2CFF00111CA7 /* Assets.xcassets */; };
+		FEC8B3832A6E2CFF00111CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC8B3812A6E2CFF00111CA7 /* LaunchScreen.storyboard */; };
+		FEC8B38E2A6E2D0000111CA7 /* YTeavelShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B38D2A6E2D0000111CA7 /* YTeavelShopTests.swift */; };
+		FEC8B3982A6E2D0000111CA7 /* YTeavelShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B3972A6E2D0000111CA7 /* YTeavelShopUITests.swift */; };
+		FEC8B39A2A6E2D0000111CA7 /* YTeavelShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B3992A6E2D0000111CA7 /* YTeavelShopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC8B38A2A6E2D0000111CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC8B36B2A6E2CFE00111CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC8B3722A6E2CFE00111CA7;
+			remoteInfo = YTeavelShop;
+		};
+		FEC8B3942A6E2D0000111CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC8B36B2A6E2CFE00111CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC8B3722A6E2CFE00111CA7;
+			remoteInfo = YTeavelShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC8B3732A6E2CFE00111CA7 /* YTeavelShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTeavelShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8B3762A6E2CFE00111CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEC8B37A2A6E2CFE00111CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEC8B37D2A6E2CFE00111CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEC8B37F2A6E2CFF00111CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEC8B3822A6E2CFF00111CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEC8B3842A6E2CFF00111CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC8B3892A6E2D0000111CA7 /* YTeavelShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTeavelShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8B38D2A6E2D0000111CA7 /* YTeavelShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTeavelShopTests.swift; sourceTree = "<group>"; };
+		FEC8B3932A6E2D0000111CA7 /* YTeavelShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTeavelShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC8B3972A6E2D0000111CA7 /* YTeavelShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTeavelShopUITests.swift; sourceTree = "<group>"; };
+		FEC8B3992A6E2D0000111CA7 /* YTeavelShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTeavelShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC8B3702A6E2CFE00111CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B3862A6E2D0000111CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B3902A6E2D0000111CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC8B36A2A6E2CFE00111CA7 = {
+			isa = PBXGroup;
+			children = (
+				FEC8B3752A6E2CFE00111CA7 /* YTeavelShop */,
+				FEC8B38C2A6E2D0000111CA7 /* YTeavelShopTests */,
+				FEC8B3962A6E2D0000111CA7 /* YTeavelShopUITests */,
+				FEC8B3742A6E2CFE00111CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC8B3742A6E2CFE00111CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8B3732A6E2CFE00111CA7 /* YTeavelShop.app */,
+				FEC8B3892A6E2D0000111CA7 /* YTeavelShopTests.xctest */,
+				FEC8B3932A6E2D0000111CA7 /* YTeavelShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC8B3752A6E2CFE00111CA7 /* YTeavelShop */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8B3762A6E2CFE00111CA7 /* AppDelegate.swift */,
+				FEC8B37A2A6E2CFE00111CA7 /* ViewController.swift */,
+				FEC8B37C2A6E2CFE00111CA7 /* Main.storyboard */,
+				FEC8B37F2A6E2CFF00111CA7 /* Assets.xcassets */,
+				FEC8B3812A6E2CFF00111CA7 /* LaunchScreen.storyboard */,
+				FEC8B3842A6E2CFF00111CA7 /* Info.plist */,
+			);
+			path = YTeavelShop;
+			sourceTree = "<group>";
+		};
+		FEC8B38C2A6E2D0000111CA7 /* YTeavelShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8B38D2A6E2D0000111CA7 /* YTeavelShopTests.swift */,
+			);
+			path = YTeavelShopTests;
+			sourceTree = "<group>";
+		};
+		FEC8B3962A6E2D0000111CA7 /* YTeavelShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8B3972A6E2D0000111CA7 /* YTeavelShopUITests.swift */,
+				FEC8B3992A6E2D0000111CA7 /* YTeavelShopUITestsLaunchTests.swift */,
+			);
+			path = YTeavelShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC8B3722A6E2CFE00111CA7 /* YTeavelShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC8B39D2A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShop" */;
+			buildPhases = (
+				FEC8B36F2A6E2CFE00111CA7 /* Sources */,
+				FEC8B3702A6E2CFE00111CA7 /* Frameworks */,
+				FEC8B3712A6E2CFE00111CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTeavelShop;
+			productName = YTeavelShop;
+			productReference = FEC8B3732A6E2CFE00111CA7 /* YTeavelShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC8B3882A6E2D0000111CA7 /* YTeavelShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC8B3A02A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShopTests" */;
+			buildPhases = (
+				FEC8B3852A6E2D0000111CA7 /* Sources */,
+				FEC8B3862A6E2D0000111CA7 /* Frameworks */,
+				FEC8B3872A6E2D0000111CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC8B38B2A6E2D0000111CA7 /* PBXTargetDependency */,
+			);
+			name = YTeavelShopTests;
+			productName = YTeavelShopTests;
+			productReference = FEC8B3892A6E2D0000111CA7 /* YTeavelShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEC8B3922A6E2D0000111CA7 /* YTeavelShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC8B3A32A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShopUITests" */;
+			buildPhases = (
+				FEC8B38F2A6E2D0000111CA7 /* Sources */,
+				FEC8B3902A6E2D0000111CA7 /* Frameworks */,
+				FEC8B3912A6E2D0000111CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC8B3952A6E2D0000111CA7 /* PBXTargetDependency */,
+			);
+			name = YTeavelShopUITests;
+			productName = YTeavelShopUITests;
+			productReference = FEC8B3932A6E2D0000111CA7 /* YTeavelShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC8B36B2A6E2CFE00111CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FEC8B3722A6E2CFE00111CA7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FEC8B3882A6E2D0000111CA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FEC8B3722A6E2CFE00111CA7;
+					};
+					FEC8B3922A6E2D0000111CA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FEC8B3722A6E2CFE00111CA7;
+					};
+				};
+			};
+			buildConfigurationList = FEC8B36E2A6E2CFE00111CA7 /* Build configuration list for PBXProject "YTeavelShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC8B36A2A6E2CFE00111CA7;
+			productRefGroup = FEC8B3742A6E2CFE00111CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC8B3722A6E2CFE00111CA7 /* YTeavelShop */,
+				FEC8B3882A6E2D0000111CA7 /* YTeavelShopTests */,
+				FEC8B3922A6E2D0000111CA7 /* YTeavelShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC8B3712A6E2CFE00111CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC8B3832A6E2CFF00111CA7 /* LaunchScreen.storyboard in Resources */,
+				FEC8B3802A6E2CFF00111CA7 /* Assets.xcassets in Resources */,
+				FEC8B37E2A6E2CFE00111CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B3872A6E2D0000111CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B3912A6E2D0000111CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC8B36F2A6E2CFE00111CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC8B37B2A6E2CFE00111CA7 /* ViewController.swift in Sources */,
+				FEC8B3772A6E2CFE00111CA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B3852A6E2D0000111CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC8B38E2A6E2D0000111CA7 /* YTeavelShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC8B38F2A6E2D0000111CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC8B3982A6E2D0000111CA7 /* YTeavelShopUITests.swift in Sources */,
+				FEC8B39A2A6E2D0000111CA7 /* YTeavelShopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC8B38B2A6E2D0000111CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC8B3722A6E2CFE00111CA7 /* YTeavelShop */;
+			targetProxy = FEC8B38A2A6E2D0000111CA7 /* PBXContainerItemProxy */;
+		};
+		FEC8B3952A6E2D0000111CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC8B3722A6E2CFE00111CA7 /* YTeavelShop */;
+			targetProxy = FEC8B3942A6E2D0000111CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEC8B37C2A6E2CFE00111CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC8B37D2A6E2CFE00111CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC8B3812A6E2CFF00111CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC8B3822A6E2CFF00111CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC8B39B2A6E2D0000111CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEC8B39C2A6E2D0000111CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC8B39E2A6E2D0000111CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTeavelShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC8B39F2A6E2D0000111CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YTeavelShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEC8B3A12A6E2D0000111CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTeavelShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTeavelShop";
+			};
+			name = Debug;
+		};
+		FEC8B3A22A6E2D0000111CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTeavelShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YTeavelShop";
+			};
+			name = Release;
+		};
+		FEC8B3A42A6E2D0000111CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTeavelShop;
+			};
+			name = Debug;
+		};
+		FEC8B3A52A6E2D0000111CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shenzhenjiutao.YTeavelShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTeavelShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC8B36E2A6E2CFE00111CA7 /* Build configuration list for PBXProject "YTeavelShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8B39B2A6E2D0000111CA7 /* Debug */,
+				FEC8B39C2A6E2D0000111CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC8B39D2A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8B39E2A6E2D0000111CA7 /* Debug */,
+				FEC8B39F2A6E2D0000111CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC8B3A02A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8B3A12A6E2D0000111CA7 /* Debug */,
+				FEC8B3A22A6E2D0000111CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC8B3A32A6E2D0000111CA7 /* Build configuration list for PBXNativeTarget "YTeavelShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC8B3A42A6E2D0000111CA7 /* Debug */,
+				FEC8B3A52A6E2D0000111CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC8B36B2A6E2CFE00111CA7 /* Project object */;
+}
