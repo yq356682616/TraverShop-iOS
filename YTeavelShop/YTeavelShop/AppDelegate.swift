@@ -4,8 +4,6 @@
 //
 //  Created by Merlin on 2023/7/24.
 //
-let ScreenWidth = UIScreen.main.bounds.width
-let ScreenHeight = UIScreen.main.bounds.height
 import UIKit
 
 @main

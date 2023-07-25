@@ -1,0 +1,6 @@
+framework module Pods_YTeavelShop {
+  umbrella header "Pods-YTeavelShop-umbrella.h"
+
+  export *
+  module * { export * }
+}
