@@ -49,17 +49,17 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Kingfisher
-    - RxCocoa
-    - RxRelay
-    - SnapKit
-  trunk:
     - Alamofire
+    - Kingfisher
     - Moya
     - "NSObject+Rx"
     - Result
-    - RxSwift
+    - RxCocoa
+    - RxRelay
+    - SnapKit
     - SwifterSwift
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -73,6 +73,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
 
-PODFILE CHECKSUM: d6da837de907387c58ed791004f094db0c7d81db
+PODFILE CHECKSUM: 5c769b73c02974189c51b2ff7a4ec4ca756def5b
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.2
