@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4776D279923B2503C9391E25 /* Pods_YTeavelShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E04F5B07F782025340FAD43 /* Pods_YTeavelShop.framework */; };
+		D3A004A02BC671DF004AFF25 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0049E2BC671DF004AFF25 /* BaseViewController.swift */; };
+		D3A004A62BC673AE004AFF25 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A004A42BC673AE004AFF25 /* MainPageViewController.swift */; };
+		D3A004A72BC673AE004AFF25 /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A004A52BC673AE004AFF25 /* MainPageViewController.xib */; };
+		D3A004A92BC67DCB004AFF25 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A004A82BC67DCB004AFF25 /* BaseNavigationController.swift */; };
+		D3A004AC2BC6974D004AFF25 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A004AB2BC6974D004AFF25 /* MainTabBarViewController.swift */; };
+		D3A20C662BC7809B002E03C5 /* MinePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20C642BC7809B002E03C5 /* MinePageViewController.swift */; };
+		D3A20C672BC7809B002E03C5 /* MinePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A20C652BC7809B002E03C5 /* MinePageViewController.xib */; };
+		D3A20C692BC7865E002E03C5 /* MainTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20C682BC7865E002E03C5 /* MainTabBarItemView.swift */; };
+		D3A20C6B2BC7C224002E03C5 /* UIView+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20C6A2BC7C224002E03C5 /* UIView+EX.swift */; };
+		D3A20C6D2BC7C706002E03C5 /* UILabel+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20C6C2BC7C706002E03C5 /* UILabel+EX.swift */; };
+		D3A20C722BC7E460002E03C5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20C702BC7E460002E03C5 /* TestViewController.swift */; };
+		D3A20C732BC7E460002E03C5 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3A20C712BC7E460002E03C5 /* TestViewController.xib */; };
 		D3E12C922B23109C00D94D57 /* UIColor+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E12C912B23109C00D94D57 /* UIColor+EX.swift */; };
 		D3E12C942B23135500D94D57 /* String+EX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E12C932B23135500D94D57 /* String+EX.swift */; };
 		FE13D2032A6F610700538784 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13D2022A6F610700538784 /* Config.swift */; };
@@ -42,6 +54,18 @@
 		1F1444BC61D9174EE4F05ED7 /* Pods-YTeavelShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTeavelShop.debug.xcconfig"; path = "Target Support Files/Pods-YTeavelShop/Pods-YTeavelShop.debug.xcconfig"; sourceTree = "<group>"; };
 		4793ECC435E365CA8A9294AA /* Pods-YTeavelShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTeavelShop.release.xcconfig"; path = "Target Support Files/Pods-YTeavelShop/Pods-YTeavelShop.release.xcconfig"; sourceTree = "<group>"; };
 		8E04F5B07F782025340FAD43 /* Pods_YTeavelShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTeavelShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A0049E2BC671DF004AFF25 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D3A004A42BC673AE004AFF25 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		D3A004A52BC673AE004AFF25 /* MainPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainPageViewController.xib; sourceTree = "<group>"; };
+		D3A004A82BC67DCB004AFF25 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		D3A004AB2BC6974D004AFF25 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		D3A20C642BC7809B002E03C5 /* MinePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePageViewController.swift; sourceTree = "<group>"; };
+		D3A20C652BC7809B002E03C5 /* MinePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinePageViewController.xib; sourceTree = "<group>"; };
+		D3A20C682BC7865E002E03C5 /* MainTabBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarItemView.swift; sourceTree = "<group>"; };
+		D3A20C6A2BC7C224002E03C5 /* UIView+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+EX.swift"; sourceTree = "<group>"; };
+		D3A20C6C2BC7C706002E03C5 /* UILabel+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+EX.swift"; sourceTree = "<group>"; };
+		D3A20C702BC7E460002E03C5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		D3A20C712BC7E460002E03C5 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		D3E12C912B23109C00D94D57 /* UIColor+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+EX.swift"; sourceTree = "<group>"; };
 		D3E12C932B23135500D94D57 /* String+EX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EX.swift"; sourceTree = "<group>"; };
 		FE13D2022A6F610700538784 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -93,11 +117,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3A004A22BC671FB004AFF25 /* 基础类 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A0049E2BC671DF004AFF25 /* BaseViewController.swift */,
+				D3A004A82BC67DCB004AFF25 /* BaseNavigationController.swift */,
+			);
+			path = "基础类";
+			sourceTree = "<group>";
+		};
+		D3A004A32BC67323004AFF25 /* 功能区 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A20C6F2BC7E400002E03C5 /* 二级功能 */,
+				D3A20C632BC78080002E03C5 /* 我的 */,
+				D3A004AA2BC68361004AFF25 /* 首页 */,
+				D3A004AB2BC6974D004AFF25 /* MainTabBarViewController.swift */,
+				D3A20C682BC7865E002E03C5 /* MainTabBarItemView.swift */,
+			);
+			path = "功能区";
+			sourceTree = "<group>";
+		};
+		D3A004AA2BC68361004AFF25 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A004A42BC673AE004AFF25 /* MainPageViewController.swift */,
+				D3A004A52BC673AE004AFF25 /* MainPageViewController.xib */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D3A20C632BC78080002E03C5 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A20C642BC7809B002E03C5 /* MinePageViewController.swift */,
+				D3A20C652BC7809B002E03C5 /* MinePageViewController.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		D3A20C6F2BC7E400002E03C5 /* 二级功能 */ = {
+			isa = PBXGroup;
+			children = (
+				D3A20C702BC7E460002E03C5 /* TestViewController.swift */,
+				D3A20C712BC7E460002E03C5 /* TestViewController.xib */,
+			);
+			path = "二级功能";
+			sourceTree = "<group>";
+		};
 		D3E12C902B23105C00D94D57 /* 扩展类 */ = {
 			isa = PBXGroup;
 			children = (
 				D3E12C912B23109C00D94D57 /* UIColor+EX.swift */,
 				D3E12C932B23135500D94D57 /* String+EX.swift */,
+				D3A20C6A2BC7C224002E03C5 /* UIView+EX.swift */,
+				D3A20C6C2BC7C706002E03C5 /* UILabel+EX.swift */,
 			);
 			path = "扩展类";
 			sourceTree = "<group>";
@@ -144,6 +218,8 @@
 		FEC8B3752A6E2CFE00111CA7 /* YTeavelShop */ = {
 			isa = PBXGroup;
 			children = (
+				D3A004A32BC67323004AFF25 /* 功能区 */,
+				D3A004A22BC671FB004AFF25 /* 基础类 */,
 				D3E12C902B23105C00D94D57 /* 扩展类 */,
 				FE13D1FF2A6F60C500538784 /* 配置类 */,
 				FEC8B3762A6E2CFE00111CA7 /* AppDelegate.swift */,
@@ -279,8 +355,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A004A72BC673AE004AFF25 /* MainPageViewController.xib in Resources */,
 				FEC8B3832A6E2CFF00111CA7 /* LaunchScreen.storyboard in Resources */,
 				FEC8B3802A6E2CFF00111CA7 /* Assets.xcassets in Resources */,
+				D3A20C672BC7809B002E03C5 /* MinePageViewController.xib in Resources */,
+				D3A20C732BC7E460002E03C5 /* TestViewController.xib in Resources */,
 				FEC8B37E2A6E2CFE00111CA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,11 +427,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A20C722BC7E460002E03C5 /* TestViewController.swift in Sources */,
+				D3A004A92BC67DCB004AFF25 /* BaseNavigationController.swift in Sources */,
+				D3A20C692BC7865E002E03C5 /* MainTabBarItemView.swift in Sources */,
 				D3E12C922B23109C00D94D57 /* UIColor+EX.swift in Sources */,
+				D3A20C6D2BC7C706002E03C5 /* UILabel+EX.swift in Sources */,
+				D3A20C6B2BC7C224002E03C5 /* UIView+EX.swift in Sources */,
+				D3A20C662BC7809B002E03C5 /* MinePageViewController.swift in Sources */,
+				D3A004A62BC673AE004AFF25 /* MainPageViewController.swift in Sources */,
+				D3A004AC2BC6974D004AFF25 /* MainTabBarViewController.swift in Sources */,
 				D3E12C942B23135500D94D57 /* String+EX.swift in Sources */,
 				FEC8B37B2A6E2CFE00111CA7 /* ViewController.swift in Sources */,
 				FEC8B3772A6E2CFE00111CA7 /* AppDelegate.swift in Sources */,
 				FE13D2032A6F610700538784 /* Config.swift in Sources */,
+				D3A004A02BC671DF004AFF25 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

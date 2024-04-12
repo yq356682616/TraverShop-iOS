@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - ESTabBarController-swift (2.8.0)
   - Kingfisher (4.10.1)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
@@ -39,6 +40,7 @@ PODS:
   - SwifterSwift/UIKit (5.1.0)
 
 DEPENDENCIES:
+  - ESTabBarController-swift
   - Kingfisher
   - Moya
   - "NSObject+Rx"
@@ -50,6 +52,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - ESTabBarController-swift
     - Kingfisher
     - Moya
     - "NSObject+Rx"
@@ -63,6 +66,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
@@ -73,6 +77,6 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
 
-PODFILE CHECKSUM: 5c769b73c02974189c51b2ff7a4ec4ca756def5b
+PODFILE CHECKSUM: a2df043dc372b3c5b038c22bbcc94a0100841c4c
 
 COCOAPODS: 1.14.2

@@ -13,5 +13,5 @@ pod 'NSObject+Rx'
 pod 'SwifterSwift'
 pod 'Kingfisher'
 pod 'SnapKit'
-
-end
+pod 'ESTabBarController-swift'
+end	
